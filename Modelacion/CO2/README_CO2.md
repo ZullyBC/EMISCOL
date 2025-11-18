@@ -4,9 +4,9 @@ Esta carpeta contiene los scripts específicos para la estimación de las emisio
 
 ## ⚙️ Scripts Incluidos
 
-* `main_CO2.py`: Script principal que orquesta ejecuta la modelación de la pluma gaussiana y post-procesamiento de los resultados de $\text{CO}_2$.
+* `main.py`: Script principal que orquesta ejecuta la modelación de la pluma gaussiana y post-procesamiento de los resultados de $\text{CO}_2$.
 * `gaussian_plume.py`: Módulo con las funciones centrales para construir la matriz de sensibilidad y resolver la inversión del modelo gaussiano.
-* `descarga_OCO2_y_vars.py`: Scripts de utilidad para la obtención y organización de los datos de entrada (OCO-2, ERA5, Carbon Tracker, etc.).
+* `oco2_descarga.py`,`oco2_recorte.py`,`descarga_CT.py`,`descarga_ERA.py`,`downscaling_CT.py`,`downscaling_ERA.py`,`upscaling_worldpop.py` : Scripts secundarios de utilidad para la obtención y organización de los datos de entrada (OCO-2, ERA5, Carbon Tracker, etc.).
 
 ## 📥 Datos de Entrada Requeridos
 
