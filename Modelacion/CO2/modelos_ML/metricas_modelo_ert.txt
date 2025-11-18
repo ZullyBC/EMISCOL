@@ -1,0 +1,26 @@
+Número de registros: 43354
+
+Fitting 5 folds for each of 75 candidates, totalling 375 fits
+
+Mejores parámetros encontrados: 
+{'n_estimators': 100, 'min_samples_split': 2, 'min_samples_leaf': 2, 'max_features': 0.5, 'max_depth': 30}
+
+=== Métricas Optimizadas ===
+R²: 0.985
+RMSE: 0.785 ppm
+MAE: 0.510 ppm
+
+=== Importancia de Variables ===
+  Variable  Importancia (%)
+       d2m        30.057440
+       t2m        24.182048
+co2_carbon        22.761277
+ world_pop         8.948155
+       u10         5.729232
+       v10         4.204262
+       lon         1.361140
+        sp         0.787007
+       lat         0.717029
+land_cover         0.503142
+      srtm         0.431961
+      ndvi         0.317307
