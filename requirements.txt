@@ -1,0 +1,34 @@
+# LIBRERÍAS BASE Y UTILIDADES
+numpy
+pandas
+matplotlib
+scipy
+requests
+beautifulsoup4
+netCDF4
+joblib
+ftplib
+
+# MODELADO Y MACHINE LEARNING
+scikit-learn
+xgboost
+pykrige
+alphashape
+
+# GEOESPACIAL Y RASTER
+rasterio
+rioxarray
+xarray
+geopandas
+shapely
+pyproj
+affine
+
+# ESTADÍSTICA Y PROCESAMIENTO
+statsmodels
+scikit-image
+
+# APIs Y AUTENTICACIÓN
+cdsapi
+requests-oauthlib
+oauthlib
