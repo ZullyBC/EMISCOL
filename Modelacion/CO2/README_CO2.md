@@ -34,5 +34,5 @@ Debido a que el archivo binario del modelo de Machine Learning (`modelo_ert_xco2
     ```
 2.  **Análisis Principal ($\text{CO}_2$):** Una vez que el modelo exista, ejecute el script principal.
     ```bash
-    python main_CO2.py
+    python main.py
     ```
